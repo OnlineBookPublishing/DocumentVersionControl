@@ -72,7 +72,7 @@ contract DocVersionControl {
     apprState=approverState.WaitingToSign;
     newRegState=newRegistrationState.WaitToRegister;
     developer1= 0x14723a09acff6d2a60dcdf7aa4aff308fddc160c;
-    numberOfApprovalsByAll = 0; numberOfUploads = 0;
+    numberOfApprovals = 0; numberOfUploads = 0;
     numberOfNewRequests=0; numberOfRequestsByDevelopers=0;
   }
 //functions 
@@ -145,3 +145,4 @@ if(result==true){
 }
    
    
+
